@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Error.html
+Disallow: /save_comments/
+Disallow: /buy_and_app/
+Disallow: /Contact_Comment/
+Disallow: /prv/
+Sitemap: http://www.modernplus.ir/sitemap.xml

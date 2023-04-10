@@ -1,0 +1,464 @@
+﻿<!DOCTYPE html>
+
+<html lang="fa">
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Language" content="fa">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<META NAME="Description" CONTENT="ثبت سفارش ساخت اپلیکیشن اندروید, طراحی اپلیکیشن اندروید, سفارش برنامه اندروید, سفارش ساخت برنامه اندروید, سفارش طراحی سایت, سفارش راه اندازی سایت">
+
+<META NAME="Keywords" CONTENT="سفارش اپلیکیشن, نرم افزار سایخت اپلیکیشن, طراحی سایت, راه اندازی سایت, ساخت سایت, ساخت نرم افزار ویندوز, ثبت سفارش">
+
+<title>مدرن پلاس | طراحی سایت و اپلیکیشن</title>
+
+<link href="assets/css/min.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+
+<style>.b{width:150px}.t{line-height:50px;font-size:23px}@media(max-width:800px){.h_mobile1{height:150px}}@media(max-width:430px){.h_mobile1{height:70px}}
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" >
+    
+    
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar">
+
+</span>
+            <span class="icon-bar">
+
+</span>
+            <span class="icon-bar">
+
+</span>
+          </button>
+          <a class="navbar-brand fl_n" target="_blank" href="#">
+
+<div class="img_logo"></div>
+
+</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right" style="direction:rtl;">
+          <ul class="nav navbar-nav" >
+                <li>
+
+<a href="app_market.php">فروشگاه نرم افزار</a>
+
+</li>
+                <li>
+
+<a href="articles.php">مطالب</a>
+
+</li>
+          <li>
+
+<a href="contact.html" >تماس با ما</a>
+
+</li>
+          	<li>
+
+<a href="about.html">درباره ما</a>
+
+</li>
+            <li>
+
+<a href="index.php">صفحه اصلی</a>
+
+</li>
+            
+            
+           </ul>
+        </div>
+
+<!--/.nav-collapse -->
+      </div>
+      
+      
+</div>
+
+
+<div id="headerwrap" style="background: url(assets/img/Header_Image6.jpg) no-repeat center top; margin-top: 0px; text-align: center; background-position: center center; min-height:700px; width: 100%; background-size:cover; ">
+
+<div>
+
+<p class="h_mobile1">&ensp;</p>
+
+<h2 style="line-height:40px;font-family:sina;font-size:26px;margin-top:9%;" class="pc1_2" >" تیم توسعه دهنده نرم افزار مدرن پلاس "</h2>
+
+<h1 style="line-height:50px;font-family:tahoma;font-size:30px;">طراحی سایت و اپلیکیشن با پشتیبانی همیشگی</h1>
+
+<h2 class="pc1_2 t">پشتیبانی و ویرایش سایت های از قبل طراحی شده</h2>
+
+<h2 class="pc1_2 t">سئو و بهینه سازی سایت به همراه مشاوره رایگان</h2>
+
+</div>
+
+</div>
+
+<div id="" style="height:690px;margin-top:-700px;width: 100%;background-image:linear-gradient(to bottom,rgba(78,74,74,0.4) 60%,rgba(78,74,74,0));">
+
+</div>
+
+<div id="service">
+
+<div class="container">
+
+<div class="row centered">
+
+<div class="col-md-4"> <i class="fa fa-android">
+
+</i>
+
+<h2 class="pn1">فروشگاه نرم افزاری</h2>
+
+<h3 class="cmt_2">جهت مشاهده و دانلود اپلیکیشن های کاربردی ساخته شده توسط این تیم ، به فروشگاه نرم افزاری مدرن پلاس مراجعه نمایید .</h3>
+
+<p>
+
+<br/>
+
+<a href="app_market.php" class="btn btn-theme b">مشاهده فروشگاه</a>
+
+</p>
+
+</div>
+
+<div class="col-md-4"> <i class="fa fa-book">
+
+</i>
+
+<h2 class="pn1">دانستنی ها</h2>
+
+<h3 class="cmt_2">برای کسب اطلاعات روز و مطالعه دانستنی های مربوط به حوزه فناوری اطلاعات ، به بخش مطالب و دانستنی ها مراجعه نمایید .</h3>
+
+<p>
+
+<br/>
+
+<a href="articles.php" class="btn btn-theme b">بیشتر</a>
+
+</p>
+
+</div>
+
+<div class="col-md-4"> <i class="fa fa-edit">
+
+</i>
+
+<h2 class="pn1">ثبت سفارش</h2>
+
+<h3 class="cmt_2">برای ثبت سفارش راه اندازی سایت و سئو و بهینه سازی ، ساخت اپلیکشین اندروید و ویندوز ، از این قسمت سفارش خود را ثبت نمایید .</h3>
+
+<p>
+
+<br/>
+
+<a href="order.html" class="btn btn-theme b" style="font-weight:200;">ثبت سفارش</a>
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<! --/container -->
+
+</div>
+
+<! --/service -->
+
+<div id="portfoliowrap">
+
+<h3>محصولات و مطالب :</h3>
+
+<div class="portfolio-centered">
+
+<div class="recentitems portfolio"> 
+
+<a href="posts/knowledge_seo"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/seo_logo_e3e38f524024a83f88c2fe39975b6144.jpg);"></div> <div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="pm1" data-animate="fadeInDown">معرفی مقدماتی سئو </h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/seo_logo_e3e38f524024a83f88c2fe39975b6144.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/knowledge_seo" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/choose_domain_for_website"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/domain_icon.jpg);"></div> <div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="pm1" data-animate="fadeInDown">تعیین آدرس دامنه سایت</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/domain_icon.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/choose_domain_for_website" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/android_apps_knowledge"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/android_icon.jpg);"></div> <div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="pm1" data-animate="fadeInDown">نکات و دانستنی های امنیتی اندروید</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/android_icon.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/android_apps_knowledge" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/Knowledge_SettingUp_WebSite"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/website_icon.jpg);"></div> <div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="pm1" data-animate="fadeInDown">راهنمای ساخت و راه اندازی سایت</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/website_icon.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/Knowledge_SettingUp_WebSite" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/calculator_app"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/calculator_logo.jpg);"></div><div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="a1" data-animate="fadeInDown">ماشین حساب پیشرفته با قابلیت تشخیص اعداد اول</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/calculator_logo.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/calculator_app" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/easy_taking_app"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/2018_Easy_Taking.jpg);"></div><div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="a1" data-animate="fadeInDown">برنامه عکاسی توسط دو دستگاه با قابلیت کنترل دوربین .</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/2018_Easy_Taking.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/easy_taking_app" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a><a href="posts/resistance_app"><div class="portfolio-item graphic-design isotope-item"><div class="he-wrap tpl6"><div class="dv_item_img" style="background:url(assets/img/portfolio/resistence_icon.jpg);"></div><div class="he-view"><div class="bg a0" data-animate="fadeIn"><h3 class="a1" data-animate="fadeInDown">برنامه ای برای محاسبه مقدار اهم مقاومت های الکترونیکی .</h3> <a data-rel="prettyPhoto" href="assets/img/portfolio/resistence_icon.jpg" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-picture-o"></i></a> <a href="posts/resistance_app" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-link"></i></a></div></div></div></div></a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container mtb">
+
+<div class="row">
+
+<div class="col-lg-4 col-lg-offset-1 fl">
+
+<h4 class="pn1">درباره ما :</h4>
+
+<p class="cmt_2">تیم توسعه دهنده نرم افزار مدرن پلاس در سال 1393 به منظور تولید اپلیکیشن ها و وب سایت های " قدرتمند و همچنین کار آمد و مقرون به صرفه " و در عین حال یک تیم تحقیقاتی و پژوهشی ، جهت افزایش بهره بری از صنعت نرم افزار ، تأسیس شد .</p>
+
+<p>
+
+<a href="about.html">
+
+<button class="btn btn-theme">بیشتر ...</button>
+
+</a>
+
+</p>
+
+</div>
+
+<div class="col-lg-3 fl"><h4>مطالب پیشنهادی</h4><div class="hline"></div> <br></div><div class="col-lg-3 fl"><h4>اپلیکیشن های پیشنهادی</h4><div class="hline"></div><ul class="popular-posts"> <br></ul></div>
+<! --/row -->
+
+</div>
+
+<! --/container -->
+
+</div>
+
+<div id="twrap">
+
+<div class="container centered">
+
+</div>
+
+<! --/container -->
+
+</div>
+
+<! --/twrap -->
+
+<div id="cwrap">
+
+<div class="container">
+
+<div class="row centered">
+
+<h3 class="pm1 pc3">با توجه به اهمیت اینترنت در بازاریابی و تبلیغات ، امروزه داشتن یک وب سایت برای کسب و کار های گوناگون یک امر ضروری جهت موفقیت میباشد .</h3>
+
+<h3 class="pm1 pc5">در واقع امروزه شرکت ها و موسساتی که فاقد وب سایت اختصاصی میباشند ، خود را از دید مردم و مشتریان پنهان کرده اند و با افزایش کابران دنیای مجازی از سایر رقبای خود باز خواهند ماند .</h3>
+
+<h3 class="pm1 pc6">با رشد تجارت الکترونیک و و افزایش کاربران دنیای مجازی ، بهره گیری از اپلیکیشن و وب سایت اختصاصی ، تأثیر شگرفی در بازاریابی و تجارت خواهد داشت .</h3>
+
+</div>
+
+<! --/row -->
+
+</div>
+
+<! --/container -->
+
+</div>
+
+<! --/cwrap -->
+
+<div id="footerwrap">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-4 fl">
+
+<h4>درباره ما</h4>
+
+<div class="hline-w">
+
+</div>
+
+<p>تیم توسعه دهنده نرم افزار مدرن پلاس ارائه دهنده خدمات : طراحی و پشتیبانی وب سایت ، سئو و بهینه سازی ، طراحی و ساخت نرم افزار اندروید و ویندوز .</p> <a href="about.html">
+
+<p>بیشتر ...</p>
+
+</a>
+
+</div>
+
+<div class="col-lg-4 fl">
+
+<h4>تماس با ما</h4>
+
+<div class="hline-w">
+
+</div> <a href="http://www.telegram.me/snk70">
+
+<p>شماره 1 : 09127014775</p>
+
+</a> <a href="http://www.telegram.me/S021A">
+
+<p>شماره 2 : 09373402001</p>
+
+</a> <a>
+
+<p style="user-select:text;">ایمیل : modernplus.team@yahoo.com</p>
+
+</a> <a href="contact.html">
+
+<p>ارسال پیام خصوصی برای ما</p>
+
+</a>
+
+</div>
+
+<div class="col-lg-4 fl">
+
+<h4>دسترسی سریع</h4>
+
+<div class="hline-w">
+
+</div> <a href="order.html">
+
+<p>ثبت سفارش</p>
+
+</a> <a href="app_market.php">
+
+<p>فروشگاه اپلیکیشن های اندروید</p>
+
+</a> <a href="articles.php">
+
+<p>بخش مطالب و دانستنی ها</p>
+
+</a>
+
+</div>
+
+</div>
+
+<! --/row -->
+
+</div>
+
+<! --/container -->
+
+</div>
+
+<! --/footerwrap --> <script src="assets/js/jquery11.min.js">
+
+</script> <script src="assets/js/bootstrap.min.js">
+
+</script> <script src="assets/js/jquery.hoverex.min.js">
+
+</script> <script src="assets/js/jquery.prettyPhoto.js">
+
+</script> <script src="assets/js/jquery.isotope.min.js">
+
+</script>
+
+
+    <script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				
+				for(var x=0;x<document.getElementsByClassName('dv_item_img').length;x++)
+				{
+					document.getElementsByClassName('dv_item_img').item(x).style.width=itemWidth+"px";
+					document.getElementsByClassName('dv_item_img').item(x).style.height=(itemWidth*450/600)+"px";
+					document.getElementsByClassName('dv_item_img').item(x).style.backgroundSize="cover";
+					document.getElementsByClassName('dv_item_img').item(x).style.backgroundPosition="center";
+				}
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+					
+					
+					
+					
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+ 
+ 
+ 
+ </body>
+
+</html>

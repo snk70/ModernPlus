@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master_Pages/Main_Master.master" AutoEventWireup="true"
+    CodeFile="Art_and_App_Master_Page.master.cs" Inherits="Master_Pages_Art_and_App_Master_Page" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cn_Head" runat="Server">
+    <asp:ContentPlaceHolder ID="cn_Head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="cn_dv_Blue_For_art_app_Pages" runat="Server">
+    <div id="blue">
+        <div class="container">
+            <div class="row">
+                <h1>
+                    <asp:ContentPlaceHolder ID="cn_dv_Blue_For_art_app_Pages" runat="server">
+                    </asp:ContentPlaceHolder>
+                </h1>
+            </div>
+        </div>
+    </div>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cn_Service_For_Index_page" runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cn_Contair_mtb_For_Index_Page" runat="Server">
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="cn_cwrap_For_Index_Page" runat="Server">
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="cn_container_wdt_100" runat="Server">
+    <div class="container wdt_100">
+        <div class="prp_content" id="prp_content">
+            <asp:ContentPlaceHolder ID="cn_PRP_Content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="side_menu" id="side_menu">
+            <asp:ContentPlaceHolder ID="cn_Side_Menu" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="dv_center">
+            <asp:ContentPlaceHolder ID="cn_DV_Center" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

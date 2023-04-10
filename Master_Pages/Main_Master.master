@@ -1,0 +1,140 @@
+﻿﻿<!DOCTYPE html>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main_Master.master.cs"
+    Inherits="Master_Pages_Main_Master" %>
+
+<%@ Register Src="Footer_WebUserControl.ascx" TagName="Footer_WebUserControl" TagPrefix="uc1" %>
+<%@ Register Src="Navbar_Menu_WebUserControl.ascx" TagName="Navbar_Menu_WebUserControl"
+    TagPrefix="uc1" %>
+
+<html lang="fa">
+<head>
+    <asp:ContentPlaceHolder ID="cn_Head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../assets/css/min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+</head>
+<body>
+    <uc1:Navbar_Menu_WebUserControl ID="Navbar_Menu_WebUserControl" runat="server" />
+    <asp:ContentPlaceHolder ID="cn_dv_Blue_For_art_app_Pages" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="cn_Service_For_Index_page" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="cn_Apps_Arts_For_Index_page" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="cn_Contair_mtb_For_Index_Page" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="cn_cwrap_For_Index_Page" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="cn_container_wdt_100" runat="server">
+    </asp:ContentPlaceHolder>
+    <uc1:Footer_WebUserControl ID="Footer_WebUserControl1" runat="server" />
+    <script src="../assets/js/jquery11.min.js">
+    </script>
+    <script src="../assets/js/bootstrap.min.js">
+
+    </script>
+    <script src="../assets/js/jquery.hoverex.min.js">
+
+    </script>
+    <script src="../assets/js/jquery.prettyPhoto.js">
+
+    </script>
+    <script src="../assets/js/jquery.isotope.min.js">
+
+    </script>
+    <script>
+        // Portfolio
+        (function ($) {
+            "use strict";
+            var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+
+            if ($container.hasClass('portfolio-centered')) {
+                portfolioLayout = 'masonry';
+            }
+
+            $container.isotope({
+                filter: '*',
+                animationEngine: 'best-available',
+                layoutMode: portfolioLayout,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                },
+                masonry: {
+            }
+        }, refreshWaypoints());
+
+        function refreshWaypoints() {
+            setTimeout(function () {
+            }, 1000);
+        }
+
+        $('nav.portfolio-filter ul a').on('click', function () {
+            var selector = $(this).attr('data-filter');
+            $container.isotope({ filter: selector }, refreshWaypoints());
+            $('nav.portfolio-filter ul a').removeClass('active');
+            $(this).addClass('active');
+            return false;
+        });
+
+        function getColumnNumber() {
+            var winWidth = $(window).width(),
+			columnNumber = 1;
+
+            if (winWidth > 1200) {
+                columnNumber = 5;
+            } else if (winWidth > 950) {
+                columnNumber = 4;
+            } else if (winWidth > 600) {
+                columnNumber = 3;
+            } else if (winWidth > 400) {
+                columnNumber = 2;
+            } else if (winWidth > 250) {
+                columnNumber = 1;
+            }
+            return columnNumber;
+        }
+
+        function setColumns() {
+            var winWidth = $(window).width(),
+				columnNumber = getColumnNumber(),
+				itemWidth = Math.floor(winWidth / columnNumber);
+
+
+            for (var x = 0; x < document.getElementsByClassName('dv_item_img').length; x++) {
+                document.getElementsByClassName('dv_item_img').item(x).style.width = itemWidth + "px";
+                document.getElementsByClassName('dv_item_img').item(x).style.height = (itemWidth * 450 / 600) + "px";
+                document.getElementsByClassName('dv_item_img').item(x).style.backgroundSize = "cover";
+                document.getElementsByClassName('dv_item_img').item(x).style.backgroundPosition = "center";
+            }
+
+            $container.find('.portfolio-item').each(function () {
+                $(this).css({
+                    width: itemWidth + 'px'
+
+
+
+
+                });
+            });
+        }
+
+        function setPortfolio() {
+            setColumns();
+            $container.isotope('reLayout');
+        }
+
+        $container.imagesLoaded(function () {
+            setPortfolio();
+        });
+
+        $(window).on('resize', function () {
+            setPortfolio();
+        });
+    })(jQuery);
+    </script>
+</body>
+</html>

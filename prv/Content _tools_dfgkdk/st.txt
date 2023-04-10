@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://modernplus.ir/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/app_market.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/articles.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/order.html</loc>
+  <lastmod>2017-08-30T10:36:03+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/contact.html</loc>
+  <lastmod>2017-08-30T10:35:27+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/about.html</loc>
+  <lastmod>2017-08-30T10:39:03+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://modernplus.ir/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
